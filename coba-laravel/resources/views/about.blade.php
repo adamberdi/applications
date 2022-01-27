@@ -6,5 +6,5 @@
 <p>{{ $email }}</p>
 <p>{{ $birth }}</p>
 <p>{{ $address }}</p>
-<img src="img/{{ $image }}" alt="{{ $name }}" width="250">
+<img src="img/{{ $image }}" alt="{{ $name }}" width="250" class="img-thumbnail rounded-circle">
 @endsection
